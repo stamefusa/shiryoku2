@@ -34,6 +34,12 @@ export default{
           this.$axios.$get('http://localhost:8080/api/3')
         } else if (input == "下") {
           this.$axios.$get('http://localhost:8080/api/4')
+        } else if (input == "左下") {
+          this.$axios.$get('http://localhost:8080/api/5')
+        } else if (input == "左") {
+          this.$axios.$get('http://localhost:8080/api/6')
+        } else if (input == "左上") {
+          this.$axios.$get('http://localhost:8080/api/7')
         }
       }
 
