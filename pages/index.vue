@@ -1,9 +1,9 @@
 <template>
   <section>
-    <b-button @click="clickMe('a')">0.1</b-button>
-    <b-button @click="clickMe('b')">0.5</b-button>
-    <b-button @click="clickMe('c')">1.0</b-button>
-    <b-button @click="clickMe('d')">2.0</b-button>
+    <li><b-button size="is-large" @click="clickMe('a')">0.1</b-button></li>
+    <li><b-button size="is-large" @click="clickMe('b')">0.5</b-button></li>
+    <li><b-button size="is-large" @click="clickMe('c')">1.0</b-button></li>
+    <li><b-button size="is-large" @click="clickMe('d')">2.0</b-button></li>
   </section>
 </template>
 
@@ -52,3 +52,9 @@ export default{
   },
 }
 </script>
+
+<style>
+  li {
+    list-style: none;
+  }
+</style>
